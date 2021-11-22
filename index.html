@@ -32,46 +32,71 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="../front_end--project-1/styles/stylesheet.css">
 
+    <script>
+
+        function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+    </script>
+
 
 
 </head>
 
 
 <body>
+
+
     <div class="container-fluid">
         <img src="../front_end--project-1/images/logo.png" class="logo" alt="brand-logo">
     </div>
 
-
-    <div class="container">
-        <h2 style="text-align: center;">
-        <div class="row align-items-center">
-          <div class="col">
-            <a class="nav-link" href="#">Home</a>
-          </div>
-          <div class="col">
-            <a class="nav-link" href="#">Things</a>
-          </div>
-          <div class="col">
-            <a class="nav-link" href="#">Contact</a>
-          </div>
-        </h2>
+    <button class="tablink" onclick="openPage('Home', this, 'steelblue')">Home</button>
+    <button class="tablink" onclick="openPage('News', this, 'steelblue')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'steelblue')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'steelblue')">About</button>
+    
+    <div id="Home" class="tabcontent">
+      <h3>Home</h3>
+      <p>Home is where the heart is..</p>
     </div>
-
-    <!--div>
-      <h3>
-
-          <a class="nav-link" href="#">about</a>
-          <a class="nav-link" href="#">projects</a>
-          <a class="nav-link" href="#">links</a> 
-          <a class="nav-link" href="#">contact</a>
-      </h3>
-    </div-->
-
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-  
-      <h1>Hello World!</h1>
-
+    
+    <div id="News" class="tabcontent">
+      <h3>News</h3>
+      <p>Some news this fine day!</p>
+    </div>
+    
+    <div id="Contact" class="tabcontent">
+      <h3>Contact</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+    
+    <div id="About" class="tabcontent">
+      <h3>About</h3>
+      <p>Who we are and what we do.</p>
+    </div>
+    
     <script src="js/scripts.js"></script>
 </body>
 

@@ -1,22 +1,62 @@
-body {
-    background-color: lightgray;
-    }
-
-    .logo {
-        max-width: 100%;
-        margin-top: -0.5%;
-        margin-left: -0.6%;
-      }
-
-
-
-    .nav-link {
-        color: peru;
-    }
 
 
 
 
 
-h1 {color: darkgreen;}
 
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    max-width: 60%;
+    margin-top: -0.5%;
+    margin-left: -0.6%;
+    background-color: lightgrey;  }
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-color: lightgrey; 
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color:lightgray;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color:steelblue ;}
+  #News {background-color: steelblue;}
+  #Contact {background-color: steelblue;}
+  #About {background-color: steelblue;}
