@@ -32,38 +32,8 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="../front_end--project-1/styles/stylesheet.css">
 
-    <script>
-
-        function openPage(pageName, elmnt, color) {
-  // Hide all elements with class="tabcontent" by default */
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Remove the background color of all tablinks/buttons
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-
-  // Show the specific tab content
-  document.getElementById(pageName).style.display = "block";
-
-  // Add the specific color to the button used to open the tab content
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
-    </script>
-
-
-
+    
 </head>
-
 
 <body>
 
@@ -72,19 +42,109 @@ document.getElementById("defaultOpen").click();
         <img src="../front_end--project-1/images/logo.png" class="logo" alt="brand-logo">
     </div>
 
-    <button class="tablink" onclick="openPage('Home', this, 'steelblue')">Home</button>
-    <button class="tablink" onclick="openPage('News', this, 'steelblue')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Home', this, 'steelblue')" id="defaultOpen"></i>Home</button>
+    <button class="tablink" onclick="openPage('Prices', this, 'steelblue')">Prices</button>
     <button class="tablink" onclick="openPage('Contact', this, 'steelblue')">Contact</button>
     <button class="tablink" onclick="openPage('About', this, 'steelblue')">About</button>
     
     <div id="Home" class="tabcontent">
-      <h3>Home</h3>
-      <p>Home is where the heart is..</p>
+
+        <h2>About me</h2>
+
+      <div class="row">
+        <div class="column">
+          <p>Hi there! My name is George Django Parker, and I am a Worcester based music tutor specialising in Bass, Guitar, Drums and Ukulele.
+            <br/> <br/>
+            Growing up in Spain, I started a band with my close friends and began gigging most weekends and became a working musician at the age of 16, picking up many useful skills along the way. At age 20 I moved back to the UK and studied music at universtiy and joined a new originals alternative rock band, solidifying my music theory and studio skills.
+            <br/> <br/>
+            After working in various bands for a number of years I decided to begin teaching music as a private music tutor and a peripatetic music tutor working in various schools and music teaching academies across Worcestershire.
+
+          </p>
+        </div>
+        <div class="column">
+            <br/>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/22eVRZOn3-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      
     </div>
     
-    <div id="News" class="tabcontent">
-      <h3>News</h3>
-      <p>Some news this fine day!</p>
+    <div id="Prices" class="tabcontent">
+      <h2>Prices</h2>
+      <div class="container" style="padding-left: 10%; padding-right: 10%;">
+        <div class="row align-items-center">
+            <div class="col">
+                <table class="table table-hover">
+                    <thead class="thead">
+                        <tr>
+                            <th>Tutoring:</th>
+                            <th>Price:</th>
+                            <th>Bundle Offer (x5):</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1 hour instrument lesson</th>
+                            <th>£26.00</th>
+                            <th>£120.00</th>
+                        </tr>
+                        <tr>
+                            
+                            <th>30 minute instrument lesson</th>
+                            <th>£14.00</th>
+                            <th>£60.00</th>
+                        </tr>
+                        <tr>
+                            <th>20 minute instrument lesson</th>
+                            <th>£12.00</th>
+                            <th>£56.00</th>
+                        </tr>
+                        <tr>
+                            <th>1 hour workshop</th>
+                            <th>£36.00</th>
+                            <th>£160.00</th>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-left: 10%; padding-right: 10%;">
+        <div class="row align-items-center">
+            <div class="col">
+                <table class="table table-hover">
+                    <thead class="thead">
+                        <tr>
+                            <th>Sessioning:</th>
+                            <th>Price:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Hourly Daytime Rate</th>
+                            <th>£30.00</th>
+                        </tr>
+                        <tr>
+                            
+                            <th>Hourly Night-time Rate</th>
+                            <th>£36.00</th>
+                        </tr>
+                        <tr>
+                            <th>Hourly Practice Rate</th>
+                            <th>£24.00</th>
+                        </tr>
+                        <tr>
+                            <th>Travel Cost (>10 miles)</th>
+                            <th>Fuel cost x miles</th>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     </div>
     
     <div id="Contact" class="tabcontent">
@@ -97,6 +157,6 @@ document.getElementById("defaultOpen").click();
       <p>Who we are and what we do.</p>
     </div>
     
-    <script src="js/scripts.js"></script>
+    <script src="../front_end--project-1/scripts/myscripts.js"></script>
 </body>
 
