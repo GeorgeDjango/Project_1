@@ -30,6 +30,9 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="../front_end--project-1/styles/stylesheet.css">
 
     
@@ -38,7 +41,7 @@
 <body>
 
 
-    <div class="container-fluid">
+    <div id="header" class="container-fluid">
         <img src="../front_end--project-1/images/logo.png" class="logo" alt="brand-logo">
     </div>
 
@@ -47,26 +50,33 @@
     <button class="tablink" onclick="openPage('Contact', this, 'steelblue')">Contact</button>
     <button class="tablink" onclick="openPage('Projects', this, 'steelblue')">Projects</button>
     
-    <div id="Home" class="tabcontent">
+    <div id="Home" class="tabcontent" style="height: 1450px; overflow:scroll;">
         <h2>About me</h2>
+        <hr class="m-s"/>
         <div class="container">
-            <div class="clearfix">
-            <iframe class="col-md-6 float-md-end mb-3 ms-md-3"  height="315" src="https://www.youtube.com/embed/22eVRZOn3-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br/>
-            <p>
-                Hi there! My name is George Django Parker, and I am a Worcester based music tutor specialising in Bass, Guitar, Drums and Ukulele.
-            </p>
 
-            <p>
-                Growing up in Spain, I started a band with my close friends and began gigging most weekends and became a working musician at the age of 16, picking up many useful skills along the way. At age 20 I moved back to the UK and studied music at universtiy and joined a new originals alternative rock band, solidifying my music theory and studio skills.
-            </p>
-
-            <p>
-                After working in various bands for a number of years I decided to begin teaching music as a private music tutor and a peripatetic music tutor working in various schools and music teaching academies across Worcestershire.
-            </p>
-
-
-        </div>
+            <div class="row">
+                <div class="col-sm-5 col-md-6">
+                    <p>
+                        Hi there! My name is George Django Parker, and I am a Worcester based music tutor specialising in Bass, Guitar, Drums and Ukulele.
+                    </p>
+        
+                    <p>
+                        Growing up in Spain, I started a band with my close friends and began gigging most weekends and became a working musician at the age of 16, picking up many useful skills along the way. At age 20 I moved back to the UK and studied music at universtiy and joined a new originals alternative rock band, solidifying my music theory and studio skills.
+                    </p>
+        
+                    <p>
+                        After working in various bands for a number of years I decided to begin teaching music as a private music tutor and a peripatetic music tutor working in various schools and music teaching academies across Worcestershire.
+                    </p>
+                </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                    <div class="iframe-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/22eVRZOn3-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+            </div>  
+        </br></br></br>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-md-6">
@@ -85,10 +95,12 @@
             </div>
         </div>
     </div>
+    <hr class="m-s"/>
     </div>
     
-    <div id="Prices" class="tabcontent">
+    <div id="Prices" class="tabcontent" style="height: 1010px; overflow:scroll">
       <h2>Prices</h2>
+      <hr class="m-s"/>
       <h4 style="padding-left: 3%;">Tutoring</h4>
       <p style="padding-left: 7%; padding-right: 7%;">I offer lessons on Bass, Guitar, Drums and Ukulele, either online, at school, a local studio or at the comfort of the students home (distance permitting). Lessons can be paid each week by cash or bank transfer, alternatively lessons can be bought in bundles of 5 lessons at a reduced rate.</p>
       <div class="container" style="padding-left: 10%; padding-right: 10%;">
@@ -130,7 +142,7 @@
             </div>
         </div>
     </div>
-
+<br/> <br/> 
     <h4 style="padding-left: 3%;">Session Musician</h4>
     <p style="padding-left: 7%; padding-right: 7%;">I'm also a working musician, and can be hired for studio work or to session in bands.</p>
 
@@ -168,10 +180,13 @@
             </div>
         </div>
     </div>
+    <br/>
+    <hr class="m-s"/>
     </div>
     
-    <div id="Contact" class="tabcontent">
+    <div id="Contact" class="tabcontent" style="height: 700px; overflow:scroll">
       <h2>Contact</h2>
+      <hr class="m-s"/>
 
       <div class="container">
         <div class="row">
@@ -225,15 +240,89 @@
     </div>
     </div>
     </div>
+    <hr class="m-s"/>
+    </div>
+
+    <div id="Projects" class="tabcontent" style="height: 1350px; overflow:scroll">
+
+      <h2>Projects</h2>
+
+      <hr class="m-s"/>
+      <br/>
+      <div class="container">
+
+        <div class="row">
+            <div class="col-sm-5 col-md-6">
+            <h4>Underground Ocean</h4>
+                <p>"Underground Ocean" were an original alternative rock band based in Worcester that gigged across the UK.</p>
+                <p>Consisting of Stuart MacDonnell on rhythym guitar and vocals, Matt Beddoes on lead guitar, George Parker on bass and backing vocals and Lee Evans on drums, the band released an EP and three singles "Get Me Out", "I See Through You" and "Hide You".</p>
+                
+                <iframe src="https://open.spotify.com/embed/album/5T5XlX10RDlfAvfOP2QOyU" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gUFiwxaCAOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </br>
+            
+        </div>
+    </div>
+    <br/>
+    <hr class="m-s"/>
+    <br/>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                <div class="iframe-container">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1354347223&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/themayorsnest" title="The Mayor&#x27;s Nest" target="_blank" style="color: #cccccc; text-decoration: none;">The Mayor&#x27;s Nest</a> · <a href="https://soundcloud.com/themayorsnest/sets/released-music" title="Released Music" target="_blank" style="color: #cccccc; text-decoration: none;">Released Music</a></div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-6">
+            <h4>The Mayor's Nest</h4>
+                <p>"The Mayor's Nest" is a chilled out indie duo based in Fernhill Heath, Worcester and gig solely in living rooms, to no audience.</p>
+                <p>Consisting of George Parker on guitar, keys, drums and Rebecca Parker on guitar ukulele and vocals, the husband and wife duo self-produce their music and so far has released a handful of covers including "Wicked Game" by Chris Isaak, "Ain't No Sunshine" by Bill Withers, "Everybody Wants to Rule the World" by Tears for Freas, etc.</p>
+                <p></p>
+            </div>
+            
+        </br>
+            
+        </div>
+    </div>
+    <br/>
+    <hr class="m-s"/>
+    <br/>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-5 col-md-6">
+            <h4>django.</h4>
+                <p>"django." is a lo-fi garage-rock / indie-rock project based in Worcester and will prospectively gig in the future</p>
+                <p>Written and produced by George Parker, "django." is a solo project which will involve Harvey Jones on bass guitar and Sebastian Baldwin on drums during live performances, so far, there has only been a demo EP, and a couple of singles released, but there is an album in the works which will be released eventually.</p>
+                
+            </div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                <div class="iframe-container">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1103542897&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/george-django-parker" title="George Django Parker" target="_blank" style="color: #cccccc; text-decoration: none;">George Django Parker</a> · <a href="https://soundcloud.com/george-django-parker/sets/the-risk-i-took-was-calculated-but-man-am-i-bad-at-maths" title="the risk i took was calculated, but man, am i bad at maths" target="_blank" style="color: #cccccc; text-decoration: none;">the risk i took was calculated, but man, am i bad at maths</a></div>
+                </div>
+            </div>
+        </br>
+            
+        </div>
+    </div>
+    <br/>
+    <hr class="m-s"/>
     </div>
 
 
-
-       
-    
-    <div id="Projects" class="tabcontent">
-      <h2>Projects</h2>
-      <p>Who we are and what we do.</p>
+    <div class="footer-basic">
+        <hr class="m-s"/>
+        <br/>
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/georgedjango/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/DjangoSilentD"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/georgedjangoparker/"><i class="icon ion-social-facebook"></i></a></div>
+            <p class="copyright">George Django Parker © 2021</p>
+        </footer>
     </div>
     
     <script src="../front_end--project-1/scripts/myscripts.js"></script>
