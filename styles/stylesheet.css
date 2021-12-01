@@ -3,12 +3,14 @@
   }
 
   input[type=text] {
-    background-color: #3CBC8D;
+    background-color:lightsteelblue;
 
     color: white;
     border: 0px solid black;
     border-radius: 4px;
   }
+
+  
 
   a{
     color: white;
@@ -30,21 +32,36 @@
     max-width: 60%;
     margin-top: -0.5%;
     margin-left: -0.6%;
-    background-color: lightgrey;  }
+    background-color:lightslategray;  }
 
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 
+.table-hover {
+    color: white;
+}
+
+.table-hover tbody tr:hover th {
+    background:lightsteelblue;
+}
+
+tr:hover {
+    color: white;
+}
+
+
+
+
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial;
-    background-color: steelblue; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#153540 ; 
   }
   
   /* Style tab links */
   .tablink {
-    background-color:lightgray;
+    background-color:lightslategray;
     color: white;
     float: left;
     border: none;
@@ -56,7 +73,7 @@ body, html {
   }
   
   .tablink:hover {
-    background-color: #777;
+    background-color: #254854;
   }
   
   /* Style the tab content (and add height:100% for full page content) */
@@ -94,7 +111,7 @@ body, html {
 
   .footer-basic {
     padding:40px 0;
-    background-color:steelblue;
+    background-color:#153540;
     color:white;
   }
 
@@ -138,14 +155,14 @@ body, html {
 
 
   
-  #Home {background-color:steelblue ;}
-  #Prices {background-color: steelblue;}
-  #Contact {background-color: steelblue;}
-  #Projects {background-color: steelblue;}
+  #Home {background-color:#153540 ;}
+  #Prices {background-color: #153540;}
+  #Contact {background-color: #153540;}
+  #Projects {background-color: #153540;}
 
-  #footer {background-color:steelblue ;}
+  #footer {background-color:#153540 ;}
 
-  #header {background-color:lightgray ;}
+  #header {background-color:lightslategray ;}
 
 
 
