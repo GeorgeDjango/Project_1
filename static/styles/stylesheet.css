@@ -12,82 +12,105 @@ a {
     display: flex;
   }
 
-  body, html {
-    height: 100%;
-    margin: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:#153540 ; 
-  }
-
-
-
-
-
-
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:#153540 ; 
+}
 
 /* Header */
 
-  #header {
-    background-color:lightslategray ;
-  }
+#header {
+  background-color:lightslategray ;
+}
 
-  .logo {
-    max-width: 60%;
-    margin-top: -0.5%;
-    margin-left: -0.6%;
-    background-color:lightslategray;  }
-
-
-
-
+.logo {
+  max-width: 60%;
+  margin-top: -0.5%;
+  margin-left: -0.6%;
+  background-color:lightslategray;
+}
 
 /* Menu tabs */
 
-  #Home {background-color:#153540 ;}
-  #Prices {background-color: #153540;}
-  #Contact {background-color: #153540;}
-  #Projects {background-color: #153540;}
+#Home {
+  background-color:#153540;
+}
 
-  .tablink {
-    background-color:lightslategray;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 25px;
-    width: 25%;
-  }
-  
-  .tablink:hover {
-    background-color: #254854;
-  }
-  
+#Prices {
+  background-color: #153540;
+}
+#h4-prices {
+  padding-left: 3%;
+}
+#p-prices {
+  padding-left: 7%; padding-right: 7%;
+}
+#table-prices {
+  padding-left: 10%; padding-right: 10%;
+}
 
-  .tabcontent {
-    color: white;
-    display: none;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 7%;
-    height: 200%;
-  }
+#Contact {
+  background-color: #153540;
+}
+.center {
+  text-align: center;
+}
+.form-input {
+  width: 75px;
+}
+.form-button {
+  color: #485056; 
+  background-color:#E9ECEF; 
+  border:0px solid black; 
+  border-radius: 4px;
+}
+.form-map {
+  text-align: center; 
+  align-items: center;
+}
 
+#Projects {
+  background-color: #153540;
+}
 
+.tablink {
+  background-color:lightslategray;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 25px;
+  width: 25%;
+}
 
+.tablink:hover {
+  background-color: #254854;
+}
 
+.tabcontent {
+  color: white;
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 7%;
+  height: 200%;
+}
 
 /* Footer */
 
-#footer {background-color:#153540 ;}
+#footer {
+  background-color:#153540;
+}
 
 .footer-basic {
   padding:40px 0;
   background-color:#153540;
   color:white;
 }
-
 
 .footer-basic .social {
   text-align:center;
@@ -117,12 +140,8 @@ a {
   text-align:center;
   font-size:13px;
   color:white;
-  margin-bottom:0;}
-
-
-
-
-
+  margin-bottom:0;
+}
 
 /* Spotify, Soundcloud, Youtube etc. */
 
@@ -132,7 +151,8 @@ a {
   padding-top: 30px; 
   height: 0; 
   overflow: hidden; 
-  flex-shrink: inherit;}
+  flex-shrink: inherit;
+}
 
 .iframe { 
   position: relative; 
@@ -140,7 +160,8 @@ a {
   left: 0; 
   width: 100%; 
   height: 100%; 
-  flex-shrink: inherit;}
+  flex-shrink: inherit;
+}
 
 .iframe-container{
     position: relative;
@@ -148,16 +169,14 @@ a {
     padding-bottom: 56.25%; 
     height: 0;
   }
-  .iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 
-  
-
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* Contact */
 
@@ -180,6 +199,7 @@ input[type=text] {
   border-radius: 4px;
 }
 
+/* fix padding between nav bar and title */
 @media screen and (max-width: 768px) {
   .tablink {
     font-size: 16px
