@@ -100,10 +100,10 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 - Selected the 'master branch' option under the 'GitHub Pages' section.
 - Ran several regular commits throughout my project.
 
-# Live Repo
+### Live Repo
  https://georgedjango.github.io/Project_1/
  
-# Opening Code On Local Device
+### Opening Code On Local Device
 To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
 
 1. Go to my GitHub repo.
@@ -112,3 +112,20 @@ To run my code locally, users can download a local copy of my code to their desk
 4. Open the zip files and open 'index.html'.
 
 
+## Credits 
+
+---
+
+### Media
+- All content was made by myself unless otherwise stated.
+- Photo on Home Tab - Taken by a friend of mine Mike Mann
+- Underground Ocean:
+1. Music Video: Filmed by video company 'RISER'
+2. Music: Made alongside Stu McDonnel, Lee Evans & Matt Beddoes and recorded, mixed and mastered at 'Magic Garden Studios'.
+- Mayors Nest Music - Made alongside Rebecca Parker and recorded, mixed and mastered at home by me.
+- django. music - Drum played by Seb Baldwin, and recorded at 'The Swan Studios" by myself and Seb Baldwin.
+
+### Acknowledgements
+- I took inspiration from various self employed contractors and other musicians websites.
+- I was influenced by fromvw3school, as I was using the site as a tool to help me develop some styles.
+- I used various embed techniques provided by 'Google Maps', 'Youtube', 'Spotify' & 'Soundcloud'.
