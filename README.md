@@ -29,6 +29,13 @@ On the tab 'Projects', they will also be able to view my past and current projec
 At the bottom my social media pages can be seen, which will be opened when clicked.
 
 
+## Features:
+
+
+- All tabs:
+-- Tab layout - The page is completely made using a tab system in which the user can access the four different sections with ease.
+-- Links to social media - In the footer I have links to relevent social media
+
 ## Tech
 
 ---
