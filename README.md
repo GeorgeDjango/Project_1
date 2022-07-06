@@ -31,10 +31,29 @@ At the bottom my social media pages can be seen, which will be opened when click
 
 ## Features:
 
+---
 
-- All tabs:
--- Tab layout - The page is completely made using a tab system in which the user can access the four different sections with ease.
--- Links to social media - In the footer I have links to relevent social media
+1. All tabs:
+- Tab layout - The page is completely made using a tab system in which the user can access the four different sections with ease.
+- Links to social media - In the footer I have icons that link to relevent social media that the user can access.
+
+2. Home tab:
+- Pictures and videos - A photo of myself playing bass, as well as an embedded Youtube video in which I'm playing a song on bass.
+
+3. Prices:
+- Highlighted table - Here there's a table that highlights the price row the user is currently hoverig over.
+
+4. Contact: 
+- Email Me - A button that if clicked will open up a semi pre-written email on the users pc/mobile/tablet that's automatically adressed to me with a subject.
+- Call Me - A button that if clicked will open up a call feature on mobile and a skype prompt on pc.
+- Form - Here's a form that the user can fill out that will send their details on to me so I can contact them at a suitable time.
+- Map - A map that directs the user to a recording studio that I use for teaching.
+
+5. Projects:
+- Video - Here's an embedded link to a music video by one of my bands that can be accessed by the user.
+- Spotify - Here's an embedded link to an EP on Spotify by one of my bands that can be accessed by the user.
+- Soundcloud - Here are embedded links to various tracks on soundcloud by some of the other musical projects I'm a part of that can be accessed by the user.
+
 
 ## Tech
 
@@ -63,4 +82,33 @@ At the bottom my social media pages can be seen, which will be opened when click
 
 8. Formspree
 - Formspree has been used to help facilitate making contact forms
+
+---
+
+## Deployment
+The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
+- Loaded the terminal window in my Visual Studio Code workspace.
+- Initialised Git using the git init command.
+- Added all files to the Staging area (Git) using the git add . command.
+- Committed the files to Git using the git commit -m "Initial commit" command.
+- Created a new repository in GitHub called 'Project_1'.
+- Copied the below code from GitHub into the terminal window in my Visual Studio Code workspace:
+- git remote add origin https://github.com/GeorgeDjango/Project_1
+- git push -u origin master
+- Entered my GitHub username and password to push the files from Git to GitHub.
+- Went into 'Settings' on my repository page in GitHub.
+- Selected the 'master branch' option under the 'GitHub Pages' section.
+- Ran several regular commits throughout my project.
+
+# Live Repo
+ https://georgedjango.github.io/Project_1/
+ 
+# Opening Code On Local Device
+To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
+
+1. Go to my GitHub repo.
+2. Click 'Clone or download'.
+3. Click 'Download ZIP'.
+4. Open the zip files and open 'index.html'.
+
 
