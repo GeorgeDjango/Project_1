@@ -69,7 +69,7 @@ At the bottom my social media pages can be seen, which will be opened when click
 - Bootstraps has been used to help keep some simple effective structure, based on a grid system
 
 4. JavaScript
-- Java has been used to help give my project some "brains" which has allowed me to use the tab system I wanted for my overall structure
+- JavaScript has been used to help give my project some "brains" which has allowed me to use the tab system I wanted for my overall structure
 
 5. Favicon
 - Favicon has been used to implement some icons within the style for added aesthetical appeal
